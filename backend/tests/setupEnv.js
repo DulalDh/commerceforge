@@ -1,0 +1,11 @@
+process.env.NODE_ENV = 'test';
+process.env.PORT = '5001';
+process.env.CLIENT_URL = 'http://localhost:5173';
+process.env.CORS_ORIGINS = 'http://localhost:5173';
+process.env.MONGODB_URI = 'mongodb://127.0.0.1:27017/test-placeholder';
+process.env.JWT_ACCESS_SECRET = 'test-access-secret-with-more-than-32-characters';
+process.env.JWT_REFRESH_SECRET = 'test-refresh-secret-with-more-than-32-characters';
+process.env.JWT_ACCESS_EXPIRES_IN = '15m';
+process.env.JWT_REFRESH_EXPIRES_IN = '7d';
+process.env.JWT_ISSUER = 'bd-ai-ecommerce-api';
+process.env.JWT_AUDIENCE = 'bd-ai-ecommerce-client';
